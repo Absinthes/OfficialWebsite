@@ -12,7 +12,7 @@ export default defineConfig({
       configFile: resolve(__dirname, "uno.config.ts"),
     }),
     createSvgIconsPlugin({
-      iconDirs: [join(__dirname, "assets/svg")],
+      iconDirs: [join(__dirname, "./src/assets/svg")],
     }),
   ],
   resolve: {
@@ -22,6 +22,7 @@ export default defineConfig({
     },
   },
   server: {
+    open: true,
     host: "0.0.0.0",
   },
 });
