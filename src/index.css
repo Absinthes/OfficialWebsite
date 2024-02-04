@@ -11,3 +11,8 @@ body {
   fill: currentColor;
   overflow: hidden;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

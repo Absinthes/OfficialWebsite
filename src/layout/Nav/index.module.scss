@@ -1,0 +1,16 @@
+.nav {
+  border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+  .active {
+    color: #4b6ce9 !important;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      width: 80px;
+      height: 3px;
+      background: #4b6ce9;
+      transform: translateX(-50%);
+    }
+  }
+}
