@@ -1,0 +1,43 @@
+.about {
+  .tabs-header-item {
+    &.active {
+      background: #4b6ce9;
+      color: white;
+      &::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -9px;
+        border-top: 10px solid #4b6ce9;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+      }
+    }
+  }
+  .about-container {
+    :global {
+      .ant-tabs {
+        .ant-tabs-nav {
+          display: none;
+        }
+      }
+    }
+  }
+  .introduce {
+    .company-img {
+      position: absolute;
+      bottom: 35px;
+      left: 18px;
+      z-index: 2;
+    }
+    .company-square {
+      position: absolute;
+      bottom: 10px;
+      z-index: 1;
+    }
+  }
+}

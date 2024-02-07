@@ -26,21 +26,25 @@ export const routes = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: 'about',
-        element: <About />
+        path: "about",
+        element: <About />,
       },
       {
-        path: 'product',
-        element: <Product />
+        path: "product",
+        element: <Product />,
       },
       {
-        path: 'information',
-        element: <Information />
+        path: "information",
+        element: <Information />,
       },
       {
-        path: 'contact',
-        element: <Contact />
+        path: "contact",
+        element: <Contact />,
       },
-    ]
+    ],
+  },
+  {
+    path: "/about",
+    element: <About />,
   },
 ]);
