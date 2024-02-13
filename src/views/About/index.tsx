@@ -2,7 +2,9 @@ import { Tabs, TabsProps } from "antd";
 import classNames from "classnames";
 import { useState } from "react";
 import styles from "./index.module.scss";
-import Introduce from "./Introduce.jsx";
+import Introduce from "./Introduce";
+import Team from "./Team";
+import Certificate from "./Certificate";
 
 type TabHeaderProps = {
   tabs: TabsProps["items"];
@@ -16,7 +18,7 @@ const TabHeader = ({
   onChange = () => {},
 }: TabHeaderProps) => {
   return (
-    <div className="tabs-header flex mb-30px">
+    <div className="tabs-header flex">
       {tabs?.map((item, i) => (
         <div
           key={item.key}
@@ -46,12 +48,12 @@ export default function About() {
     {
       key: "team",
       label: "团队介绍",
-      children: "Content of Tab Pane 2",
+      children: <Team />,
     },
     {
       key: "honor",
       label: "荣誉资质/学术成就",
-      children: "Content of Tab Pane 3",
+      children: <Certificate />,
     },
   ];
 
@@ -65,16 +67,20 @@ export default function About() {
     <>
       <div className={styles.about}>
         <div className="footer-img h-400px object-cover mb-80px">
-          <img src="/img/about-footer.png" alt="" className="h-full w-full" />
+          <img
+            src="/img/about/about-footer.png"
+            alt=""
+            className="h-full w-full"
+          />
         </div>
-        <div
-          className={classNames("w-1200px mx-auto", styles["about-container"])}
-        >
+        <div className="w-1200px mx-auto">
           <TabHeader
             tabs={tabs}
             activeTab={activeTab}
             onChange={handleTabChange}
           />
+        </div>
+        <div className={classNames(styles["about-container"])}>
           <Tabs activeKey={activeTab} items={tabs} onChange={handleTabChange} />
         </div>
       </div>
