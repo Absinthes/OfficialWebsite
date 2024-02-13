@@ -87,8 +87,8 @@ export default function Footer() {
   };
 
   return (
-    <div className="m-auto w-full bg-#0B162B color-white">
-      <div className="flex justify-between mx-auto mt-40px pt-50px w-1200px h-350px ">
+    <div className="m-auto w-full bg-#0B162B color-white ">
+      <div className="flex justify-between mx-auto mt-40px pt-50px w-1200px h-350px box-border ">
         {list.map((it) => (
           <div key={it.name}>
             <div className="flex  items-center w-full">
