@@ -9,7 +9,18 @@ import {
 } from "unocss";
 
 export default defineConfig({
-  rules: [],
+  rules: [
+    [
+      /^truncate-(\d+)$/,
+      ([, d]) => ({
+        display: "-webkit-box",
+        "text-overflow": "ellipsis",
+        overflow: "hidden",
+        "-webkit-box-orient": "vertical",
+        "-webkit-line-clamp": d,
+      }),
+    ],
+  ],
   presets: [presetUno(), presetAttributify()],
   transformers: [transformerDirectives()],
 });
