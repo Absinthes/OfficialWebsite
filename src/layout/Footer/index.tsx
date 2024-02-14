@@ -4,7 +4,7 @@ export default function Footer() {
   const list = [
     {
       name: "友情链接",
-      icon: "/vite.svg",
+      icon: "vite.svg",
       children: [
         {
           name: "科技研究院",
@@ -22,7 +22,7 @@ export default function Footer() {
     },
     {
       name: "关于我们",
-      icon: "/vite.svg",
+      icon: "vite.svg",
       children: [
         {
           name: "公司介绍",
@@ -40,7 +40,7 @@ export default function Footer() {
     },
     {
       name: "联系我们",
-      icon: "/vite.svg",
+      icon: "vite.svg",
       children: [
         {
           name: "电话 0553-5888186",
