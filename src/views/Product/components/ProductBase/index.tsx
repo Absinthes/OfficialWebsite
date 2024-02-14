@@ -18,7 +18,7 @@ export default function ProductBase({ list, linkTo = "" }: ProductBaseProps) {
       <Link to={linkTo} className="flex justify-between">
         <img
           className="w-500px h-600px object-cover"
-          src="/img/编组 14_20230409140200A002.png"
+          src="img/编组 14_20230409140200A002.png"
           alt=""
         />
         <div className="flex flex-col items-start ">

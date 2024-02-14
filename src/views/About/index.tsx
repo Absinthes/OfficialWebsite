@@ -68,7 +68,7 @@ export default function About() {
       <div className={styles.about}>
         <div className="footer-img h-400px object-cover mb-80px">
           <img
-            src="/img/about/about-footer.png"
+            src="img/about/about-footer.png"
             alt=""
             className="h-full w-full"
           />

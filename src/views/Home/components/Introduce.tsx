@@ -7,7 +7,7 @@ export default function Introduce() {
         <div className="flex-1 relative">
           <img
             className="absolute left-18px bottom-35px w-432px h-310px z-2"
-            src="/img/about/introduce.jpg"
+            src="img/about/introduce.jpg"
             alt=""
           />
           <div className="absolute left-0 bottom-10px w-215px h-314px bg-#4b6ce9 z-1"></div>

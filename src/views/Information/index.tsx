@@ -5,7 +5,7 @@ export default function Information() {
     <div className="">
       <img
         className="mb-80px w-full h-400px object-cover"
-        src="/img/c4_20230322171143A051.png"
+        src="img/c4_20230322171143A051.png"
         alt=""
       />
       <div className="pb-40px"></div>

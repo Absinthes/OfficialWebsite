@@ -33,7 +33,7 @@ export default function News({
           {title}
         </div>
         <Link className="flex items-end" to={MoreTo}>
-          <img src="/img/More.png" alt="" />
+          <img src="img/More.png" alt="" />
         </Link>
       </div>
       <div className="mb--10px">

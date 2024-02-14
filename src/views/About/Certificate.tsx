@@ -86,50 +86,50 @@ const useIndexNext = (len: number, limit: number) => {
 export default function Certificate() {
   const case1 = [
     {
-      src: "/img/about/credential1.jpg",
+      src: "img/about/credential1.jpg",
     },
     {
-      src: "/img/about/credential2.jpg",
+      src: "img/about/credential2.jpg",
     },
     {
-      src: "/img/about/credential3.jpg",
+      src: "img/about/credential3.jpg",
     },
     {
-      src: "/img/about/credential1.jpg",
+      src: "img/about/credential1.jpg",
     },
     {
-      src: "/img/about/credential2.jpg",
+      src: "img/about/credential2.jpg",
     },
     {
-      src: "/img/about/credential3.jpg",
+      src: "img/about/credential3.jpg",
     },
   ];
   const case2 = [
     {
-      src: "/img/about/credential1.jpg",
+      src: "img/about/credential1.jpg",
     },
     {
-      src: "/img/about/credential2.jpg",
+      src: "img/about/credential2.jpg",
     },
     {
-      src: "/img/about/credential3.jpg",
+      src: "img/about/credential3.jpg",
     },
     {
-      src: "/img/about/credential1.jpg",
+      src: "img/about/credential1.jpg",
     },
     {
-      src: "/img/about/credential2.jpg",
+      src: "img/about/credential2.jpg",
     },
   ];
   const honors = [
     {
-      src: "/img/about/credential1.jpg",
+      src: "img/about/credential1.jpg",
     },
     {
-      src: "/img/about/credential2.jpg",
+      src: "img/about/credential2.jpg",
     },
     {
-      src: "/img/about/credential3.jpg",
+      src: "img/about/credential3.jpg",
     },
   ];
   const {
@@ -159,7 +159,7 @@ export default function Certificate() {
     <div
       className="bg-cover"
       style={{
-        background: "url('/img/about/aboutbk.png')",
+        background: "url('img/about/aboutbk.png')",
       }}
     >
       <div className="certificate mt-40px mx-auto w-1200px">
@@ -175,7 +175,7 @@ export default function Certificate() {
                 className="btn-item w-70px h-70px rounded-50% cursor-pointer"
                 onClick={last}
               >
-                <img src="/img/about/00000.png" className="w-full" alt="" />
+                <img src="img/about/00000.png" className="w-full" alt="" />
               </div>
               <div className="text-24px">
                 <span>{caseIndex}</span>/<span>{count}</span>
@@ -184,7 +184,7 @@ export default function Certificate() {
                 className="btn-item w-70px h-70px rounded-50% cursor-pointer"
                 onClick={next}
               >
-                <img src="/img/about/897.png" className="w-full" alt="" />
+                <img src="img/about/897.png" className="w-full" alt="" />
               </div>
             </div>
           </div>
@@ -209,7 +209,7 @@ export default function Certificate() {
                   className="btn-item w-70px h-70px rounded-50% cursor-pointer"
                   onClick={honorLast}
                 >
-                  <img src="/img/about/00000.png" className="w-full" alt="" />
+                  <img src="img/about/00000.png" className="w-full" alt="" />
                 </div>
                 <div className="text-24px">
                   <span>{honorIndex}</span>/<span>{honorCount}</span>
@@ -218,7 +218,7 @@ export default function Certificate() {
                   className="btn-item w-70px h-70px rounded-50% cursor-pointer"
                   onClick={honorNext}
                 >
-                  <img src="/img/about/897.png" className="w-full" alt="" />
+                  <img src="img/about/897.png" className="w-full" alt="" />
                 </div>
               </div>
             </div>

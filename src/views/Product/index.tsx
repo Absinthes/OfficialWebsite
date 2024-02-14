@@ -33,7 +33,7 @@ export default function About() {
     <div>
       <img
         className="mb-80px w-full h-400px object-cover"
-        src="/img/about/about-footer.png"
+        src="img/about/about-footer.png"
         alt=""
       />
       <div className="w-1200px m-auto">
@@ -41,7 +41,7 @@ export default function About() {
       </div>
       <img
         className="w-full h-885px object-cover"
-        src="/img/组 (1)_20230409140005A001.png"
+        src="img/组 (1)_20230409140005A001.png"
         alt=""
       />
     </div>

@@ -12,13 +12,13 @@ export default function SwiperCard(props: HTMLAttributes<HTMLElement>) {
 
   const list = [
     {
-      imgUrl: "/img/about/introduce.jpg",
+      imgUrl: "img/about/introduce.jpg",
     },
     {
-      imgUrl: "/img/about/about-footer.png",
+      imgUrl: "img/about/about-footer.png",
     },
     {
-      imgUrl: "/img/about/introduce.jpg",
+      imgUrl: "img/about/introduce.jpg",
     },
   ];
 

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import QRCodeUrl from "@/assets/img/二维码.jpg";
 
 export default function Footer() {
   const list = [
@@ -75,11 +74,11 @@ export default function Footer() {
     return (
       <div className="flex flex-col gap-30px text-center">
         <div>
-          <img src={QRCodeUrl} className="w-90px h-90px" />
+          <img src="img/二维码.jpg" className="w-90px h-90px" />
           <div>微信公众号</div>
         </div>
         <div>
-          <img src={QRCodeUrl} className="w-90px h-90px" />
+          <img src="img/二维码.jpg" className="w-90px h-90px" />
           <div>手机端</div>
         </div>
       </div>

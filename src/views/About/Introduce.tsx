@@ -36,7 +36,7 @@ export default function Introduce() {
       <div className="flex h-380px">
         <div className="flex-1 relative">
           <img
-            src="/img/about/introduce.jpg"
+            src="img/about/introduce.jpg"
             alt=""
             className={classNames(
               "w-432px h-310px absolute",
@@ -67,7 +67,7 @@ export default function Introduce() {
       >
         <p className="flex items-center">
           <img
-            src="/img/about/about-task-mark.png"
+            src="img/about/about-task-mark.png"
             alt=""
             className="w-30px h-30px mr-10px"
           />
@@ -88,7 +88,7 @@ export default function Introduce() {
           <div className="w-360px flex">
             <img
               className="w-84px h-77px absolute"
-              src="/img/about/about-555.png"
+              src="img/about/about-555.png"
               style={{
                 left: 0,
               }}
@@ -146,7 +146,7 @@ export default function Introduce() {
                       }}
                     >
                       <img
-                        src={`/img/about/${index}${
+                        src={`img/about/${index}${
                           item.type == active.type ? "_active" : ""
                         }.png`}
                         alt=""
