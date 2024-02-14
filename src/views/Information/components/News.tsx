@@ -23,7 +23,7 @@ export default function News({
   return (
     <div className={className} {...rest}>
       <div
-        className="relative mb-20px flex justify-between  "
+        className="relative mb-20px flex justify-between"
         border="0 b-1 solid #d2d3d4"
       >
         <div

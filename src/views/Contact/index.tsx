@@ -31,7 +31,7 @@ export default function About() {
         </h1>
         <div className="flex justify-between">
           <div>
-            {list.map((it, idx) => (
+            {list.map((it) => (
               <div className="flex mb-30px">
                 <img className="w-50px h-50px mr-16px" src={it.url} alt="" />
                 <span className="text-24px color-#333 font-600">
