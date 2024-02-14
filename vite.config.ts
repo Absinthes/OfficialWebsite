@@ -5,13 +5,12 @@ import { join, resolve } from "path";
 import { createSvgIconsPlugin } from "vite-plugin-svg-icons";
 
 // https://vitejs.dev/config/
-export default defineConfig(({ command, mode, ssrBuild }) => {
+export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd());
-  console.log("mode: ", mode);
   console.log("env", env);
 
   return {
-    base: mode == "development" ? "/" : "/OfficialWebsite/",
+    base: env.VITE_BASEROUTE,
     plugins: [
       react(),
       Unocss({

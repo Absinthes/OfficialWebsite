@@ -1,5 +1,5 @@
 import { lazy } from "react";
-import { createBrowserRouter } from "react-router-dom";
+import { RouteObject, createBrowserRouter } from "react-router-dom";
 
 import Home from "@/views/Home";
 import Layout from "@/layout";
@@ -9,7 +9,7 @@ const Product = lazy(() => import("@/views/Product"));
 const Information = lazy(() => import("@/views/Information"));
 const Contact = lazy(() => import("@/views/Contact"));
 
-export const routes = createBrowserRouter([
+const _routes: RouteObject[] = [
   {
     path: "/",
     element: <Layout />,
@@ -40,4 +40,10 @@ export const routes = createBrowserRouter([
     path: "/about",
     element: <About />,
   },
-]);
+];
+
+export const routes = createBrowserRouter(_routes, {
+  basename: import.meta.env.VITE_BASEROUTE,
+});
+
+console.log("import.meta.env.VITE_BASEROUTE: ", import.meta.env.VITE_BASEROUTE);
