@@ -43,15 +43,15 @@ export default function Footer() {
       icon: "vite.svg",
       children: [
         {
-          name: "电话 0553-5888186",
+          name: "电话 0000-0000000",
           link: "",
         },
         {
-          name: "邮箱 service@mtwlai.com",
+          name: "邮箱 xxxxxxxxx@qq.com",
           link: "",
         },
         {
-          name: "网站 www.mtwlai.com",
+          name: "网站 www.xxxxx.com",
           link: "",
         },
       ],
@@ -105,7 +105,7 @@ export default function Footer() {
       <hr className="m0 border-#ffffff33 border-b-0" />
       <div className="flex flex-col justify-center h-130px text-18px text-center">
         <div className="opacity-50 lh-36px">
-          版权所有©明瞳未来(北京)数字健康科技研究院有限公司
+          版权所有©红谷医疗数字健康科技研究院有限公司
         </div>
         <a className="opacity-50 lh-36px" href="">
           京ICP备2022003830号-1

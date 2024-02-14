@@ -2,19 +2,19 @@ export default function About() {
   const list = [
     {
       url: "img/callme.png",
-      content: "电话 0553-5888186",
+      content: "电话 0000-0000000",
     },
     {
       url: "img/email.png",
-      content: "邮箱 service@mtwlai.com",
+      content: "邮箱 xxxxxxxxxx@mtwlai.com",
     },
     {
       url: "img/network.png",
-      content: "网址 www.mtwlai.com",
+      content: "网址 www.xxxxxxxxx.com",
     },
     {
       url: "img/address.png",
-      content: "地址 北京市海淀区中关村大街18号14层1601A3",
+      content: "地址 xxxxxxxxxxxxxxxxxxxx",
     },
   ];
 
@@ -27,7 +27,7 @@ export default function About() {
       />
       <div className="w-1200px m-auto">
         <h1 className="pb-40px text-24px color-#4b6ce9 font-600">
-          明瞳未来（北京）数字健康科技研究院有限公司
+          红谷医疗数字健康科技研究院有限公司
         </h1>
         <div className="flex justify-between">
           <div>

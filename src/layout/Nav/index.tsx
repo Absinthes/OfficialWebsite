@@ -45,7 +45,7 @@ export default function Nav() {
       <div className="flex items-center justify-between m-auto  w-1200px">
         <div className="flex items-center">
           <img src="vite.svg" className="w-54px h-54px" />
-          <span className="ml-12px color-#4b6ce9">明瞳未来</span>
+          <span className="ml-12px color-#4b6ce9">红谷医疗</span>
         </div>
         <div className={classnames(styles["nav-list"], "flex items-center")}>
           {LinkList}
