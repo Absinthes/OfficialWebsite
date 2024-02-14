@@ -33,7 +33,7 @@ export default function About() {
     <div>
       <img
         className="mb-80px w-full h-400px object-cover"
-        src="/img/about-footer.png"
+        src="/img/about/about-footer.png"
         alt=""
       />
       <div className="w-1200px m-auto">
