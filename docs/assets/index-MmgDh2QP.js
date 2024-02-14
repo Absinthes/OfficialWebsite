@@ -1,0 +1,1 @@
+import{j as s,N as a}from"./index-c3dKlY7P.js";function x(){return s.jsxs("div",{className:"",children:[s.jsx("img",{className:"mb-80px w-full h-400px object-cover",src:"img/c4_20230322171143A051.png",alt:""}),s.jsx("div",{className:"pb-40px"}),s.jsx("div",{className:"w-1200px m-auto ",children:s.jsx(a,{})}),s.jsx("div",{className:"h-40px"})]})}export{x as default};
